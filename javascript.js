@@ -3,8 +3,8 @@ let lojtariPiket = 0
 let pcPiket = 0
 let tekstiPc = document.querySelector("#tekstiPc")
 let tekstiPlayer = document.querySelector("#tekstiPlayer")
-let h1 = document.querySelector("#h1")
-let h2 = document.querySelector("#h2")
+let h1 = document.querySelector("#piketKompjuterit")
+let h2 = document.querySelector("#piketLojtari")
 let h3 = document.querySelector("#h3")
 
 
