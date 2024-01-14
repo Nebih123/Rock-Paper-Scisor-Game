@@ -9,7 +9,6 @@ let h3 = document.querySelector("#h3")
 
 
 
-
 let butoni = document.querySelector("#butoni");
 butoni.addEventListener("click", () => {
     let tekstiPlayer = document.querySelector("#tekstiPlayer")
