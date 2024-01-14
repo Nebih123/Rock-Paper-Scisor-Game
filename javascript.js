@@ -8,7 +8,6 @@ let h2 = document.querySelector("#piketLojtari")
 let h3 = document.querySelector("#h3")
 
 
-
 let butoni = document.querySelector("#butoni");
 butoni.addEventListener("click", () => {
     let tekstiPlayer = document.querySelector("#tekstiPlayer")
@@ -17,6 +16,7 @@ butoni.addEventListener("click", () => {
     console.log("Rock")
     pc()
 })
+
 
 let butoni2 = document.querySelector("#butoni2");
 butoni2.addEventListener("click", () => {
