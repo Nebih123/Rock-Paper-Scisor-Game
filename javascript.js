@@ -69,18 +69,18 @@ if (
         h2.textContent = lojtariPiket 
     }
 
-    if (lojtariPiket == 5) {
+    if (lojtariPiket == 3) {
         lojtariFiton()
     }
 
-    if (pcPiket == 5) {
+    if (pcPiket == 3) {
         pcFiton()
     }
 }
 
 
 function lojtariFiton() {
-    h3.textContent = "Lojtari fiton me 5 pike"
+    h3.textContent = "Lojtari fiton me 3 pike"
     const buttons = document.querySelectorAll('button');
     buttons.forEach(button => button.disabled = true);
 }
@@ -88,7 +88,7 @@ function lojtariFiton() {
 
 
 function pcFiton() {
-    h3.textContent = "PC fiton me 5 pike"
+    h3.textContent = "PC fiton me 3 pike"
     const buttons = document.querySelectorAll('button');
     buttons.forEach(button => button.disabled = true);
 }
