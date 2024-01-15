@@ -79,7 +79,6 @@ if (
 }
 
 
-
 function lojtariFiton() {
     h3.textContent = "Lojtari fiton me 3 pike"
     const buttons = document.querySelectorAll('button');
