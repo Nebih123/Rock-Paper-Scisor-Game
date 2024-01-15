@@ -85,6 +85,7 @@ function lojtariFiton() {
     buttons.forEach(button => button.disabled = true);
 }
 
+
 function pcFiton() {
     h3.textContent = "PC fiton me 5 pike"
     const buttons = document.querySelectorAll('button');
